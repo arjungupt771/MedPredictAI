@@ -1,4 +1,4 @@
-# 🏥 MedPredict AI v2.1
+# 🏥 MedPredict AI 
 
 > **Explainable disease-prediction platform**: calibrated ML classifier, SHAP explainability, deterministic safety layer, FastAPI backend, Streamlit UI, PDF reports, tests, CI and Docker.
 
@@ -293,5 +293,4 @@ This benchmark is intended for machine-learning evaluation and portfolio/researc
 
 ---
 
-> ⚠️ **Disclaimer:** This project is for educational purposes only and is not a medical device. It does not provide diagnosis or treatment advice. Always consult a qualified healthcare professional.#   M e d P r e d i c t A I  
- 
+> ⚠️ **Disclaimer:** This project is for educational purposes only and is not a medical device. It does not provide diagnosis or treatment advice. Always consult a qualified healthcare professional.

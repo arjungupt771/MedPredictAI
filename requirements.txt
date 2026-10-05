@@ -1,0 +1,24 @@
+# MedPredict AI v2 — Dependencies
+
+# ML Core
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+xgboost==2.1.1
+joblib==1.4.2
+
+# Explainability
+shap==0.46.0
+
+# Backend
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+
+# Frontend
+streamlit==1.39.0
+requests==2.32.3
+anthropic==0.40.0
+
+# PDF Generation
+reportlab==4.2.5

@@ -1,0 +1,17 @@
+{
+  "name": "rf_baseline",
+  "timestamp": "2026-09-28T16:27:22.669545+00:00",
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 15,
+    "random_state": 42
+  },
+  "metrics": {
+    "accuracy": 94.38,
+    "precision_weighted": 94.8,
+    "recall_weighted": 94.38,
+    "f1_weighted": 94.36,
+    "f1_macro": 94.36
+  },
+  "notes": "Uncalibrated RandomForest on synthetic dataset."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "xgb_baseline",
+  "timestamp": "2026-09-28T16:27:27.249480+00:00",
+  "hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "learning_rate": 0.1,
+    "random_state": 42
+  },
+  "metrics": {
+    "accuracy": 93.54,
+    "precision_weighted": 94.03,
+    "recall_weighted": 93.54,
+    "f1_weighted": 93.53,
+    "f1_macro": 93.53
+  },
+  "notes": "Uncalibrated XGBoost on synthetic dataset."
+}

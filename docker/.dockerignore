@@ -1,0 +1,10 @@
+.git
+__pycache__
+*.pyc
+*.pyo
+.ipynb_checkpoints
+notebooks/*.ipynb
+dataset/*.png
+tests
+.pytest_cache
+*.egg-info

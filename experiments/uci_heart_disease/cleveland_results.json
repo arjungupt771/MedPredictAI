@@ -1,0 +1,103 @@
+{
+  "dataset": "cleveland",
+  "rows": 303,
+  "features": 13,
+  "missing_values": 6,
+  "missing_by_feature": {
+    "ca": 4,
+    "thal": 2
+  },
+  "class_distribution": {
+    "0": 164,
+    "1": 139
+  },
+  "dataset_summary": {
+    "rows": 303,
+    "features": 13,
+    "missing_values": 6,
+    "missing_by_feature": {
+      "ca": 4,
+      "thal": 2
+    },
+    "class_distribution": {
+      "0": 164,
+      "1": 139
+    }
+  },
+  "removed_all_missing_features": [],
+  "cross_validation": {
+    "LogisticRegression": {
+      "accuracy_mean": 0.8470238095238095,
+      "accuracy_std": 0.021594956566396217,
+      "precision_mean": 0.8783262504086302,
+      "precision_std": 0.07089870442894844,
+      "recall_mean": 0.7837944664031621,
+      "recall_std": 0.033715206501400995,
+      "f1_mean": 0.8253529352696442,
+      "f1_std": 0.015038219310732187,
+      "roc_auc_mean": 0.9064947130164521,
+      "roc_auc_std": 0.019700816981989767
+    },
+    "RandomForest": {
+      "accuracy_mean": 0.8138605442176872,
+      "accuracy_std": 0.023943379807863985,
+      "precision_mean": 0.8163256606990623,
+      "precision_std": 0.04576909573773909,
+      "recall_mean": 0.773913043478261,
+      "recall_std": 0.07750059908178512,
+      "f1_mean": 0.7905806589340354,
+      "f1_std": 0.034389236138663126,
+      "roc_auc_mean": 0.895151064716282,
+      "roc_auc_std": 0.028412358103173215
+    },
+    "XGBoost": {
+      "accuracy_mean": 0.7891156462585034,
+      "accuracy_std": 0.03141313451616222,
+      "precision_mean": 0.7755748987854252,
+      "precision_std": 0.06190861055252976,
+      "recall_mean": 0.7743083003952569,
+      "recall_std": 0.06546724209026197,
+      "f1_mean": 0.7708138730323473,
+      "f1_std": 0.030431428601080033,
+      "roc_auc_mean": 0.8674346587390065,
+      "roc_auc_std": 0.027395621817628526
+    }
+  },
+  "selected_model": "LogisticRegression",
+  "final_test": {
+    "accuracy": 0.8689,
+    "precision": 0.8125,
+    "recall": 0.9286,
+    "f1": 0.8667,
+    "roc_auc": 0.9578,
+    "brier_score": 0.0851,
+    "confusion_matrix": [
+      [
+        27,
+        6
+      ],
+      [
+        2,
+        26
+      ]
+    ]
+  },
+  "calibrated_model": {
+    "accuracy": 0.8689,
+    "precision": 0.8125,
+    "recall": 0.9286,
+    "f1": 0.8667,
+    "roc_auc": 0.9589,
+    "brier_score": 0.089,
+    "confusion_matrix": [
+      [
+        27,
+        6
+      ],
+      [
+        2,
+        26
+      ]
+    ]
+  }
+}

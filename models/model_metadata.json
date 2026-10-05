@@ -1,0 +1,16 @@
+{
+  "model_version": "2.1.0",
+  "model_type": "RandomForest",
+  "calibration_method": "sigmoid",
+  "dataset_version": "1.0.0",
+  "dataset_hash": "8f125b482270",
+  "dataset_is_synthetic": true,
+  "training_date": "2026-09-28T16:27:36.500509+00:00",
+  "python_version": "3.14.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "sklearn_version": "1.9.1",
+  "xgboost_version": "3.4.1",
+  "features": 57,
+  "classes": 20,
+  "random_seed": 42
+}

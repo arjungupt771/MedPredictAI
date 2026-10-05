@@ -1,0 +1,117 @@
+{
+  "dataset": "switzerland",
+  "rows": 123,
+  "features": 13,
+  "missing_values": 273,
+  "missing_by_feature": {
+    "trestbps": 2,
+    "fbs": 75,
+    "restecg": 1,
+    "thalach": 1,
+    "exang": 1,
+    "oldpeak": 6,
+    "slope": 17,
+    "ca": 118,
+    "thal": 52
+  },
+  "class_distribution": {
+    "0": 8,
+    "1": 115
+  },
+  "dataset_summary": {
+    "rows": 123,
+    "features": 13,
+    "missing_values": 273,
+    "missing_by_feature": {
+      "trestbps": 2,
+      "fbs": 75,
+      "restecg": 1,
+      "thalach": 1,
+      "exang": 1,
+      "oldpeak": 6,
+      "slope": 17,
+      "ca": 118,
+      "thal": 52
+    },
+    "class_distribution": {
+      "0": 8,
+      "1": 115
+    }
+  },
+  "removed_all_missing_features": [],
+  "cross_validation": {
+    "LogisticRegression": {
+      "accuracy_mean": 0.9389473684210525,
+      "accuracy_std": 0.019509213676684855,
+      "precision_mean": 0.9389473684210525,
+      "precision_std": 0.019509213676684855,
+      "recall_mean": 1.0,
+      "recall_std": 0.0,
+      "f1_mean": 0.9684064631433053,
+      "f1_std": 0.01053726737444957,
+      "roc_auc_mean": 0.8666666666666666,
+      "roc_auc_std": 0.12957670877434002
+    },
+    "RandomForest": {
+      "accuracy_mean": 0.9389473684210525,
+      "accuracy_std": 0.019509213676684855,
+      "precision_mean": 0.9389473684210525,
+      "precision_std": 0.019509213676684855,
+      "recall_mean": 1.0,
+      "recall_std": 0.0,
+      "f1_mean": 0.9684064631433053,
+      "f1_std": 0.01053726737444957,
+      "roc_auc_mean": 0.8783625730994153,
+      "roc_auc_std": 0.13817266853772794
+    },
+    "XGBoost": {
+      "accuracy_mean": 0.9289473684210525,
+      "accuracy_std": 0.023654952688678104,
+      "precision_mean": 0.9384210526315788,
+      "precision_std": 0.019237544086838986,
+      "recall_mean": 0.9894736842105264,
+      "recall_std": 0.02105263157894739,
+      "f1_mean": 0.9630083524820365,
+      "f1_std": 0.012779975354303178,
+      "roc_auc_mean": 0.8616959064327485,
+      "roc_auc_std": 0.11428821808119755
+    }
+  },
+  "selected_model": "RandomForest",
+  "final_test": {
+    "accuracy": 0.92,
+    "precision": 0.92,
+    "recall": 1.0,
+    "f1": 0.9583,
+    "roc_auc": 0.3913,
+    "brier_score": 0.0876,
+    "confusion_matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        23
+      ]
+    ]
+  },
+  "calibrated_model": {
+    "accuracy": 0.92,
+    "precision": 0.92,
+    "recall": 1.0,
+    "f1": 0.9583,
+    "roc_auc": 0.5435,
+    "brier_score": 0.0809,
+    "confusion_matrix": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        23
+      ]
+    ]
+  }
+}

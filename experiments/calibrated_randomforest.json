@@ -1,0 +1,17 @@
+{
+  "name": "calibrated_randomforest",
+  "timestamp": "2026-09-28T16:27:35.664308+00:00",
+  "hyperparameters": {
+    "base_model": "RandomForest",
+    "calibration_method": "sigmoid",
+    "cv": 5
+  },
+  "metrics": {
+    "accuracy": 95.0,
+    "cv_accuracy_mean": 94.33,
+    "cv_accuracy_std": 0.9,
+    "f1_weighted": 94.36,
+    "f1_macro": 94.36
+  },
+  "notes": "Sigmoid-calibrated wrapper around the winning model; this is what predictor.py loads for confidence scores."
+}
